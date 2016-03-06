@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+    
+    
+     <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            android:textSize="16sp"
+            />
+        <EditText 
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:hint="请输入注册账号"
+            android:selectAllOnFocus="true"/>
+        
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textSize="16sp"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="请输入密码"/>
+                   
+    </TableRow>
+     <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认密码:"
+            android:textSize="16sp"
+            />
+        <EditText 
+            android:id="@+id/sure_password"
+            android:layout_height="wrap_content"
+            android:hint="请再次输入密码"
+            android:selectAllOnFocus="true"
+            android:inputType="textPassword"/>
+        
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:textSize="16sp"
+            />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"          
+            android:hint="请输入姓名"/>
+                   
+    </TableRow>
+     <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人1:"
+            android:textSize="16sp"
+            />
+        <EditText 
+            android:id="@+id/phone1"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号码"
+            android:selectAllOnFocus="true"/>
+        
+    </TableRow>
+    <TableRow>
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人2："
+            android:textSize="16sp"
+            />
+        <EditText
+            android:id="@+id/phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号码"/>
+                   
+    </TableRow>
+     <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人3:"
+            android:textSize="16sp"
+            />
+        <EditText 
+            android:id="@+id/phone3"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号码"
+            android:selectAllOnFocus="true"/>
+        
+    </TableRow>
+     <TableRow >
+        <Button 
+            android:id="@+id/register"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="注册"/>
+    </TableRow>
+    
+
+</TableLayout>

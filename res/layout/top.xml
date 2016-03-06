@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="47.0dip"
+    android:background="@color/bar_background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txt_left"
+        style="@style/txt_titleStyle1"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:text="返回"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="40dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/txt_titleStyle1"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textSize="22sp" />
+
+    <ImageView
+         android:id="@+id/img_right"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon_add" />
+    <TextView
+        android:id="@+id/txt_right"
+        style="@style/txt_titleStyle1"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="保存"
+        android:layout_marginRight="7dp"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/btn_left"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_left"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="常规"
+            android:textColor="@color/green1" />
+
+        <RadioButton
+            android:id="@+id/btn_right"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_shape_right"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="地图"
+            android:textColor="@color/Azure" />
+    </RadioGroup>
+
+</RelativeLayout>

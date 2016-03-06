@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="red_add_to_cart_n">#f15353</drawable>
+    <drawable name="red_add_to_cart_p">#a83a3a</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="hintColor">#d7d7d7</drawable>
+    <drawable name="lightBg">#fefefe</drawable>
+    <drawable name="red">#ff0000</drawable>
+    <drawable name="purple">#8e8bf2</drawable>
+    
+    <!-- 透明 -->
+    <drawable name="transparent">#00000000</drawable>
+    
+    <!-- topbar和item的背景色 -->
+    <drawable name="bg_topbar">#fbfbfb</drawable>
+    
+    <!-- app背景色 -->
+    <drawable name="android_layout_bg">#f2f3f5</drawable>
+    
+    <!-- 购物车ListView背景 -->
+    <drawable name="listView_bg">#f2f4f6</drawable>
+    
+    <!-- 分隔条颜色 -->
+    <drawable name="divider_color">#cccccc</drawable>
+    
+</resources>

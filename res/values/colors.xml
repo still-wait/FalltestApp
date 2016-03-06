@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_background">#499FDB</color>
+    <color name="white">#ffffffff</color> 
+    <color name="transparent">#00000000</color>
+    <color name="gray">#9c9c9c</color>
+    <color name="press_gray">#ffeeeeee</color>
+    <color name="TitleCA">#499FDB</color>
+    <color name="login_button">#ff775025</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="sky_blue">#00BFFF</color>
+    <color name="dimgray">#5b5b5b</color>
+    <color name="green1">#499FDB</color>
+    <color name="Azure">#E1FFFF</color>
+    <color name="text">#252525</color>
+    <color name="btn_login_press">#a83a3a</color>
+    <color name="btn_login_normal">#f15353</color>
+    <color name="btn_login_disabled">#e1e1e3</color>
+    <!-- dialog view -->
+    <color name="triangle1">#aa72d572</color>
+    <color name="circle">#aa738ffe</color>
+    <color name="rect">#aae84e40</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+</resources>

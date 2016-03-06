@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background11"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="positionHandle.PositionHistory" >
+
+    <include
+        layout="@layout/top"
+        android:background="#87CEFA" />
+    <tools.LoadingView
+        android:id="@+id/phloadView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <tools.UnderLineLinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/underline_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            app:line_dynamic_dimen="8dp"
+            app:line_margin_side="25dp" >
+        </tools.UnderLineLinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/exit_app_icon"
+            android:text="关闭护理专家客户端"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/dimgray" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d7d7d7" />
+        
+        <TextView
+            android:id="@+id/tv_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/exit_login_icon"
+            android:text="退出登录"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/dimgray" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

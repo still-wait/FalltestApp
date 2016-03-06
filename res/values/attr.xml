@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="icon1" format="reference"></attr>
+    <attr name="color" format="color"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+
+    <declare-styleable name="ChangeColorIconWithText">
+        <attr name="icon"></attr>
+        <attr name="color"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="UnderLineLinearLayout">
+        <!--时间轴偏移值-->
+        <attr name="line_margin_side" format="dimension"/>
+        <!--时间轴动态调整值-->
+        <attr name="line_dynamic_dimen" format="dimension"/>
+        <!--线宽-->
+        <attr name="line_stroke_width" format="dimension"/>
+        <!--线的颜色-->
+        <attr name="line_color" format="color"/>
+        <!--点的大小-->
+        <attr name="point_size" format="dimension"/>
+        <!--点的颜色-->
+        <attr name="point_color" format="color"/>
+        <!--图标-->
+        <attr name="icon_src" format="reference"/>
+    </declare-styleable>
+    
+    <!-- Loading动画 -->
+   <declare-styleable name="LoadingView">
+	<attr name="loadingText" format="string"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+    </declare-styleable>
+     <!-- Loading圆形小球 -->
+     <declare-styleable name="monindicator">
+        <attr name="circleRadius" format="dimension" />
+        <attr name="circleSpacing" format="dimension" />
+        <attr name="cycle" format="integer" />
+    </declare-styleable>
+
+</resources>

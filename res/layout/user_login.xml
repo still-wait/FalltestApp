@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <include layout="@layout/top" />
+
+    <RelativeLayout
+        android:id="@+id/layout_not_logined"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/login_top_bg"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="欢迎使用 护理专家"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_login"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="请登录"
+                android:textColor="@color/white"
+                android:textSize="23sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <TextView
+                android:id="@+id/tv_uid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:text="账号："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_uid"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@+id/tv_uid"
+                android:background="@null"
+                android:hint="请输入用户名"
+                android:singleLine="true"
+                android:textSize="16sp" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/img_login_clear_uid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/edit_uid"
+                android:src="@drawable/login_delete_data_icon"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="64dp"
+            android:background="#ffcccccc" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <ToggleButton
+                android:id="@+id/tgbtn_show_psw"
+                android:layout_width="54dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/switch_in"
+                android:textOff=""
+                android:textOn="" />
+
+            <TextView
+                android:id="@+id/tv_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:text="密码："
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_psw"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@+id/tv_psw"
+                android:background="@null"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/img_login_clear_psw"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_psw"
+                android:layout_toRightOf="@+id/edit_psw"
+                android:src="@drawable/login_delete_data_icon"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_margin="@dimen/item_margin_large"
+            android:background="@drawable/btn_ok"
+            android:text="登 录"
+            android:textColor="@drawable/btn_login_text"
+            android:enabled="false" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_quick_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6dp"
+                android:padding="10dp"
+                android:text="手机快速注册" />
+
+            <TextView
+                android:id="@+id/tv_find_back_psw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="6dp"
+                android:padding="10dp"
+                android:text="找回密码" />
+
+        </RelativeLayout>
+
+</LinearLayout>

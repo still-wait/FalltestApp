@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 列表菜单项高度 -->
+    <dimen name="item_height_large">60dp</dimen>
+    <dimen name="item_height">50dp</dimen>
+    <dimen name="item_height_middle">48dp</dimen>
+    
+    <!-- 菜单项间隔 -->
+    <dimen name="item_margin_top">12dp</dimen>
+    <dimen name="item_margin_left">12dp</dimen>
+    <dimen name="item_margin_right">12dp</dimen>
+    <dimen name="item_margin_bottom">12dp</dimen>
+
+    <!-- 分隔条高度 -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_height_middle">0.5dp</dimen>
+
+    <!-- 间隔 -->
+    <dimen name="item_margin">15dp</dimen>
+    <dimen name="item_margin_large">18dp</dimen>
+
+    <!-- 首页divider间隔 -->
+    <dimen name="home_item_margin">10dp</dimen>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">护理专家</string>
+    <string name="location_text">定位</string>
+    <string name="pattern_text">模式</string>
+    <string name="message_text">消息</string>
+    <string name="my_text">我</string>
+    <string name="action_settings">菜单</string>
+    <string name="my_message">我的信息</string>
+    <string name="my_contacts">联系人</string>
+    <string name="my_poision">家的位置</string>
+    <string name="travel_history">我的足迹</string>
+    <string name="My_set">设置</string>
+    <string name="my_regard">关于我们</string>
+    
+
+</resources>

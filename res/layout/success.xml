@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:stretchColumns="1" >
+
+    <include layout="@layout/top" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用 户 名:"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/account2"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:textColor="#01A9DB"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姓  名："
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#01A9DB"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人1:"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/phone12"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:textColor="#01A9DB"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人2："
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/phone22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#01A9DB"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="紧急联系人3:"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/phone32"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:textColor="#01A9DB"
+            android:textSize="22sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/request"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="查询服务器端信息"
+            android:textColor="#088A4B" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/revise"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="修改信息"
+            android:textColor="#088A4B" />
+    </TableRow>
+
+</TableLayout>

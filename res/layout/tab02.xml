@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_layout_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_item_center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="开启监听是否跌倒服务"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <ToggleButton
+            android:id="@+id/diedao_service"
+            style="@style/FilterToggleButton"
+            android:layout_marginRight="@dimen/item_margin_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/bg_item_center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="开启离家距离检测服务"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <ToggleButton
+            android:id="@+id/juli_service"
+            style="@style/FilterToggleButton"
+            android:layout_marginRight="@dimen/item_margin_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/bg_item_center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/i_record"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/right"
+            android:ellipsize="end"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:text="服务记录"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@drawable/bg_item_center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/i_config"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1.0"
+            android:drawableRight="@drawable/right"
+            android:ellipsize="end"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:text="详细配置"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
